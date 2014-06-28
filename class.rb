@@ -8,9 +8,14 @@ class Person
 		@weight = weight
 	end
 
+	def greet
+		"Hello #{@name}"
+	end
+
 end
 
 person = Person.new("Hakimu", 160, 67)
 puts person.inspect
 puts person.name="jackson"
 puts person.inspect
+puts person.greet
