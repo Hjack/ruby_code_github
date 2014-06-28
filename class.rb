@@ -8,7 +8,7 @@ class Person
 		@weight = weight
 	end
 
-	#This is the greet method
+	#This is the greet method for my class
 	def greet
 		"Hello #{@name}"
 	end
